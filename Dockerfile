@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.2.9
+ENV VERSION=0.2.8
 
 RUN gem install darkofabijan-astrails-safe --version ${VERSION} --no-format-exec
 
